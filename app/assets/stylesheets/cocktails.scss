@@ -1,0 +1,76 @@
+// Place all the styles related to the cocktails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.cocktail-index {
+  display: flex;
+  justify-content: center;
+}
+
+.list ul {
+  list-style: none;
+  padding: 0;
+}
+.dose-desc {
+  padding-left: 2px;
+}
+.show-cocktail h1 {
+  text-align: left;
+}
+.description {
+  margin-top: 30px;
+}
+.review {
+  margin-top: 22px;
+}
+#star {
+  font-size: 10px;
+}
+.image-edit {
+  width: 390px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.review-list {
+  margin-bottom: 20px;
+}
+.edit-form h2 {
+  text-align: center;
+}
+.image-show {
+  border-radius: 50px;
+}
+.back-ground-image {
+  background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+}
+.header-title {
+  margin-bottom: 50px;
+}
+.show-cocktail {
+  h3 {
+    color: $light-gray;
+  }
+  p {
+    color: $light-gray;
+    font-style: italic;
+  }
+  li {
+    color: $light-gray;
+    i {
+      color: $black;
+    }
+    .fa-trash-alt {
+      color: grey;
+      &:hover {
+        color: $light-gray;
+      }
+    }
+  }
+}
+
+h2 {
+  color: $black;
+}
+.height-form {
+  height: 100vh;
+}

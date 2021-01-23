@@ -1,0 +1,42 @@
+.navbar {
+  justify-content: space-between;
+  background: $purpele;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.navbar-brand {
+  border: solid$black 1px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: $black;
+  border-radius: 2px;
+  padding: 10px;
+  &:hover {
+    color: $light-gray;
+    border: solid $light-gray 1px;
+  }
+}
+
+.add-cocktail {
+  border: solid $black 1px;
+  font-weight: bold;
+  border-radius: 2px;
+  padding: 10px;
+  color: $black;
+  &:hover {
+    color: $light-gray;
+    border: solid $light-gray 1px;
+    background-color: none;
+    text-decoration: none;
+  }
+}
+.pstar {
+  color-adjust: percentage($number: 20);
+}

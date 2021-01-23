@@ -1,0 +1,10 @@
+.btn-primary {
+  border: none;
+  border-radius: 10px;
+  color: $black;
+  background-color: $light-gray;
+  &:hover {
+    background-color: black;
+    color: $light-gray;
+  }
+}
