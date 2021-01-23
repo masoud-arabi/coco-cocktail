@@ -1,7 +1,7 @@
 <div class="back-ground-image">
     <div class="back-ground-image height-form">
         <div class="container">
-            <h2 class="text-center header-title"> if you had a good experiace with this cocktail please write a review and rate it.</h2>
+            <h2 class="text-center header-title"> Please write a review and rate it.</h2>
             <div class="form">
                 <%= simple_form_for [@cocktail, @review] do |f| %>
                 <%= f.input :rating, type: 'select', collection: [1, 2, 3, 4, 5]  %>

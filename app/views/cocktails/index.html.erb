@@ -7,7 +7,9 @@
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="cocktail-card">
                     <div class="image">
+                        <% if cocktail.photo.attached? %>
                         <%= cl_image_tag cocktail.photo.key, class: "card-img-top rounded-lg", height: 300, width: 300, crop: :fill%>
+                        <% end %>
                     </div>
                     <div class="card-body row  space-between">
                         <div class="card-body_text col">
