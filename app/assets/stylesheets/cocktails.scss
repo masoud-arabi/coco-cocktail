@@ -48,28 +48,28 @@
 }
 .show-cocktail {
   h3 {
-    color: $light-gray;
+    color: #f4f4f4;
   }
   p {
-    color: $light-gray;
+    color: #f4f4f4;
     font-style: italic;
   }
   li {
-    color: $light-gray;
+    color: #f4f4f4;
     i {
-      color: $black;
+      color: #0e0000;
     }
     .fa-trash-alt {
       color: grey;
       &:hover {
-        color: $light-gray;
+        color: #f4f4f4;
       }
     }
   }
 }
 
 h2 {
-  color: $black;
+  color: #0e0000;
 }
 .height-form {
   height: 100vh;
