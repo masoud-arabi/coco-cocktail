@@ -37,8 +37,8 @@
 .edit-form h2 {
   text-align: center;
 }
-.image-show {
-  border-radius: 50px;
+.image-show img {
+  border-radius: 20px;
 }
 .back-ground-image {
   background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
@@ -73,4 +73,7 @@ h2 {
 }
 .height-form {
   height: 100vh;
+  _show {
+    height: 130vh;
+  }
 }
